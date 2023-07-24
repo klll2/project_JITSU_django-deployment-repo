@@ -1,8 +1,12 @@
 #!/usr/bin/env python
+
+# 가상환경 활성화: source venv_py3.10/bin/activate
+# 개발 서버 시작: python manage.py runserver
+# 가상환경 비활성화: deactivate
+
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
 
 def main():
     """Run administrative tasks."""
