@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import User, Userword, Word
 
-# Register your models here.
+admin.site.register(User)
+admin.site.register(Userword)
+admin.site.register(Word)
